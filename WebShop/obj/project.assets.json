@@ -4438,6 +4438,63 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "WebShop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "WebShop.Data": "1.0.0",
+          "WebShop.Data.EF": "1.0.0",
+          "WebShop.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebShop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShop.Application.dll": {}
+        }
+      },
+      "WebShop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "WebShop.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShop.Data.dll": {}
+        }
+      },
+      "WebShop.Data.EF/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebShop.Data.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShop.Data.EF.dll": {}
+        }
+      },
+      "WebShop.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/WebShop.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShop.Infrastructure.dll": {}
+        }
+      },
+      "WebShop.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/WebShop.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShop.Utilities.dll": {}
+        }
       }
     }
   },
@@ -12067,13 +12124,43 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "WebShop.Application/1.0.0": {
+      "type": "project",
+      "path": "../WebShop.Application/WebShop.Application.csproj",
+      "msbuildProject": "../WebShop.Application/WebShop.Application.csproj"
+    },
+    "WebShop.Data/1.0.0": {
+      "type": "project",
+      "path": "../WebShop.Data/WebShop.Data.csproj",
+      "msbuildProject": "../WebShop.Data/WebShop.Data.csproj"
+    },
+    "WebShop.Data.EF/1.0.0": {
+      "type": "project",
+      "path": "../WebShop.Data.EF/WebShop.Data.EF.csproj",
+      "msbuildProject": "../WebShop.Data.EF/WebShop.Data.EF.csproj"
+    },
+    "WebShop.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../WebShop.Infrastructure/WebShop.Infrastructure.csproj",
+      "msbuildProject": "../WebShop.Infrastructure/WebShop.Infrastructure.csproj"
+    },
+    "WebShop.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../WebShop.Utilities/WebShop.Utilities.csproj",
+      "msbuildProject": "../WebShop.Utilities/WebShop.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "WebShop.Application >= 1.0.0",
+      "WebShop.Data >= 1.0.0",
+      "WebShop.Data.EF >= 1.0.0",
+      "WebShop.Infrastructure >= 1.0.0",
+      "WebShop.Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12105,7 +12192,23 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj": {
+              "projectPath": "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj"
+            },
+            "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj": {
+              "projectPath": "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj"
+            },
+            "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj": {
+              "projectPath": "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj"
+            },
+            "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj": {
+              "projectPath": "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj"
+            },
+            "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj": {
+              "projectPath": "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

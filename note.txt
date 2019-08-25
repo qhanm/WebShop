@@ -1,0 +1,5 @@
+install package 
+
+	Microsoft.EntityFrameworkCore.SqlServer
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.tools

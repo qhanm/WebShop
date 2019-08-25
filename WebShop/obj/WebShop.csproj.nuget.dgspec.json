@@ -4,6 +4,239 @@
     "C:\\.Net\\WebShop\\WebShop\\WebShop.csproj": {}
   },
   "projects": {
+    "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj",
+        "projectName": "WebShop.Application",
+        "projectPath": "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\WebShop\\WebShop.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj"
+              },
+              "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj"
+              },
+              "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj",
+        "projectName": "WebShop.Data.EF",
+        "projectPath": "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj",
+        "projectName": "WebShop.Data",
+        "projectPath": "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\WebShop\\WebShop.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
+        "projectName": "WebShop.Infrastructure",
+        "projectPath": "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\WebShop\\WebShop.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj",
+        "projectName": "WebShop.Utilities",
+        "projectPath": "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj",
+        "packagesPath": "C:\\Users\\84965\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net\\WebShop\\WebShop.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\84965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\.Net\\WebShop\\WebShop\\WebShop.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +262,23 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Application\\WebShop.Application.csproj"
+              },
+              "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Data.EF\\WebShop.Data.EF.csproj"
+              },
+              "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Data\\WebShop.Data.csproj"
+              },
+              "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Infrastructure\\WebShop.Infrastructure.csproj"
+              },
+              "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj": {
+                "projectPath": "C:\\.Net\\WebShop\\WebShop.Utilities\\WebShop.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

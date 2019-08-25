@@ -1,0 +1,9 @@
+C:\.Net\WebShop\WebShop.Utilities\bin\Debug\netcoreapp2.2\WebShop.Utilities.deps.json
+C:\.Net\WebShop\WebShop.Utilities\bin\Debug\netcoreapp2.2\WebShop.Utilities.dll
+C:\.Net\WebShop\WebShop.Utilities\bin\Debug\netcoreapp2.2\WebShop.Utilities.pdb
+C:\.Net\WebShop\WebShop.Utilities\obj\Debug\netcoreapp2.2\WebShop.Utilities.csprojAssemblyReference.cache
+C:\.Net\WebShop\WebShop.Utilities\obj\Debug\netcoreapp2.2\WebShop.Utilities.csproj.CoreCompileInputs.cache
+C:\.Net\WebShop\WebShop.Utilities\obj\Debug\netcoreapp2.2\WebShop.Utilities.AssemblyInfoInputs.cache
+C:\.Net\WebShop\WebShop.Utilities\obj\Debug\netcoreapp2.2\WebShop.Utilities.AssemblyInfo.cs
+C:\.Net\WebShop\WebShop.Utilities\obj\Debug\netcoreapp2.2\WebShop.Utilities.dll
+C:\.Net\WebShop\WebShop.Utilities\obj\Debug\netcoreapp2.2\WebShop.Utilities.pdb

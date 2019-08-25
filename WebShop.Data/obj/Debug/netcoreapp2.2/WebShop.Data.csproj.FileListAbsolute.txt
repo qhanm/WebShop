@@ -1,0 +1,14 @@
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Infrastructure.dll
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.csprojAssemblyReference.cache
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.csproj.CoreCompileInputs.cache
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfoInputs.cache
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfo.cs
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.deps.json
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.json
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.dev.json
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\.Net\WebShop\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Infrastructure.pdb
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.csproj.CopyComplete
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\.Net\WebShop\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.pdb
