@@ -1,0 +1,10 @@
+install package 
+
+	Microsoft.EntityFrameworkCore.SqlServer
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.tools
+	Microsoft.Extensions.Configuration
+
+References
+	Web => all
+	Data.EF => Data, Infrastructure, ulitl...
